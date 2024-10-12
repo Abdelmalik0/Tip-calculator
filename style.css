@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    background-color: teal;
+    color: white;
+    max-width: 600px;
+    margin: 100px auto;
+    padding: 20px;
+    box-shadow: 0 0 10 rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    font: garamond;
+}
+
+h1 {
+    border-top: 0;
+    text-align: center;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid coral;
+    border-radius: 4px;
+    width:100%;
+}
+
+button {
+    background: coral;
+    color: white;
+    font-size: 18px;
+    width: 100%;
+    border: none;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background 0.2 ease;
+    text-transform: uppercase;
+    align: center;
+}
+
+button:hover {
+    background-color: salmon;
+}
+
+#total {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 10px;
+}
